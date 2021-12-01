@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'FZQKBYSJW';
-    src: url('./FZQKBYSJW.eot');
+    font-family: 'FZQINGKBYSJF';
+    src: url('./FZQINGKBYSJF.eot');
     src:
-        url('./FZQKBYSJW.eot?#font-spider') format('embedded-opentype'),
-        url('./FZQKBYSJW.woff') format('woff'),
-        url('./FZQKBYSJW.woff2') format('woff2'),
-        url('./FZQKBYSJW.ttf') format('truetype'),
-        url('./FZQKBYSJW.svg') format('svg');
+        url('./FZQINGKBYSJF.eot?#font-spider') format('embedded-opentype'),
+        url('./FZQINGKBYSJF.woff') format('woff'),
+        url('./FZQINGKBYSJF.woff2') format('woff2'),
+        url('./FZQINGKBYSJF.ttf') format('truetype'),
+        url('./FZQINGKBYSJF.svg') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 .medium {
-    font-family:'FZQKBYSJW';
+    font-family:'FZQINGKBYSJF';
 }
