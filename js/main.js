@@ -347,7 +347,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
       window.mobileToc = {
         open: () => {
-          $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: 55px'
+          $cardTocLayout.style.cssText = 'animation: toc-open .3s; opacity: 1; right: 63px'
         },
 
         close: () => {
