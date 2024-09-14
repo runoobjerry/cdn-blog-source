@@ -39,7 +39,6 @@ rules:
     - PROCESS-NAME,hysteria,DIRECT
     - PROCESS-NAME,UUBooster,DIRECT
     - PROCESS-NAME,uugamebooster,DIRECT
-    - MATCH,DIRECT
     - DOMAIN,steamcdn-a.akamaihd.net,🎯 全球直连
     - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
     - DOMAIN-SUFFIX,steamserver.net,🎯 全球直连
@@ -66,3 +65,4 @@ rules:
     - IP-CIDR,208.64.200.0/22,🎯 全球直连
     - IP-CIDR,208.78.164.0/22,🎯 全球直连
     - IP-CIDR,205.185.194.0/24,🎯 全球直连
+    - MATCH,DIRECT
