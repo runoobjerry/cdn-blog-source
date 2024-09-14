@@ -1,0 +1,68 @@
+rules:
+    - DOMAIN-SUFFIX,sharepoint.com,DIRECT
+    - DOMAIN-SUFFIX,storage.live.com,DIRECT 
+    - DOMAIN-SUFFIX,onedrive.live.com,🚀 节点选择
+    - DOMAIN-SUFFIX,kiko-play-niptan.one,DIRECT
+    - DOMAIN-SUFFIX,adobe.io,REJECT
+    - DOMAIN-SUFFIX,cr.adobe.com,REJECT
+    - DOMAIN-KEYWORD,torrent,DIRECT
+    - DOMAIN-SUFFIX,api.onedrive.com,DIRECT
+    - PROCESS-NAME,aria2c,DIRECT
+    - PROCESS-NAME,BitComet,DIRECT
+    - PROCESS-NAME,fdm,DIRECT
+    - PROCESS-NAME,NetTransport,DIRECT
+    - PROCESS-NAME,qbittorrent,DIRECT
+    - PROCESS-NAME,Thunder,DIRECT
+    - PROCESS-NAME,transmission-daemon,DIRECT
+    - PROCESS-NAME,transmission-qt,DIRECT
+    - PROCESS-NAME,uTorrent,DIRECT
+    - PROCESS-NAME,WebTorrent,DIRECT
+    - PROCESS-NAME,aria2c,DIRECT
+    - PROCESS-NAME,fdm,DIRECT
+    - PROCESS-NAME,Folx,DIRECT
+    - PROCESS-NAME,NetTransport,DIRECT
+    - PROCESS-NAME,qbittorrent,DIRECT
+    - PROCESS-NAME,Thunder,DIRECT
+    - PROCESS-NAME,Transmission,DIRECT
+    - PROCESS-NAME,transmission,DIRECT
+    - PROCESS-NAME,uTorrent,DIRECT
+    - PROCESS-NAME,WebTorrent,DIRECT
+    - PROCESS-NAME,WebTorrent Helper,DIRECT
+    - PROCESS-NAME,v2ray,DIRECT
+    - PROCESS-NAME,ss-local,DIRECT
+    - PROCESS-NAME,ssr-local,DIRECT
+    - PROCESS-NAME,ss-redir,DIRECT
+    - PROCESS-NAME,ssr-redir,DIRECT
+    - PROCESS-NAME,ss-server,DIRECT
+    - PROCESS-NAME,trojan-go,DIRECT
+    - PROCESS-NAME,xray,DIRECT
+    - PROCESS-NAME,hysteria,DIRECT
+    - PROCESS-NAME,UUBooster,DIRECT
+    - PROCESS-NAME,uugamebooster,DIRECT
+    - MATCH,DIRECT
+    - DOMAIN,steamcdn-a.akamaihd.net,🎯 全球直连
+    - DOMAIN-SUFFIX,cm.steampowered.com,🎯 全球直连
+    - DOMAIN-SUFFIX,steamserver.net,🎯 全球直连
+    - IP-CIDR,45.121.184.0/24,🎯 全球直连
+    - IP-CIDR,103.10.124.0/23,🎯 全球直连
+    - IP-CIDR,103.28.54.0/24,🎯 全球直连
+    - IP-CIDR,146.66.152.0/24,🎯 全球直连
+    - IP-CIDR,146.66.155.0/24,🎯 全球直连
+    - IP-CIDR,153.254.86.0/24,🎯 全球直连
+    - IP-CIDR,155.133.224.0/22,🎯 全球直连
+    - IP-CIDR,155.133.230.0/24,🎯 全球直连
+    - IP-CIDR,155.133.232.0/23,🎯 全球直连
+    - IP-CIDR,155.133.234.0/24,🎯 全球直连
+    - IP-CIDR,155.133.236.0/22,🎯 全球直连
+    - IP-CIDR,155.133.240.0/23,🎯 全球直连
+    - IP-CIDR,155.133.244.0/23,🎯 全球直连
+    - IP-CIDR,155.133.246.0/24,🎯 全球直连
+    - IP-CIDR,155.133.248.0/21,🎯 全球直连
+    - IP-CIDR,162.254.192.0/21,🎯 全球直连
+    - IP-CIDR,185.25.182.0/23,🎯 全球直连
+    - IP-CIDR,190.217.32.0/22,🎯 全球直连
+    - IP-CIDR,192.69.96.0/22,🎯 全球直连
+    - IP-CIDR,205.196.6.0/24,🎯 全球直连
+    - IP-CIDR,208.64.200.0/22,🎯 全球直连
+    - IP-CIDR,208.78.164.0/22,🎯 全球直连
+    - IP-CIDR,205.185.194.0/24,🎯 全球直连
