@@ -1,3 +1,6 @@
+name: 自定义规则
+desc: clash自定义规则
+
 rules:
     - DOMAIN-SUFFIX,sharepoint.com,DIRECT
     - DOMAIN-SUFFIX,storage.live.com,DIRECT 
